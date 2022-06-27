@@ -44,8 +44,8 @@ function App() {
         <Button type="button">Sign in</Button>
         <Button type="reset">Reset</Button>
       </div>
-      <FormError visible={isSignedIn} />
-      <FormMessage visible={!isSignedIn} />
+      <FormError visible={!isSignedIn} />
+      <FormMessage visible={isSignedIn} />
      
   </form>
   );
