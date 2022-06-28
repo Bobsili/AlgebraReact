@@ -7,4 +7,11 @@ function FormMessage(props) {
     return <div className="form-message">Successfully sign in!</div>
 }
 
+// function FormMessage({ visible }) {
+//     if (!{ visible }) {
+//         return null;
+//     }
+//     return <div className="form-message">Successfully sign in!</div>
+// }
+
 export default FormMessage;

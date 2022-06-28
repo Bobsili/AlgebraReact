@@ -3,6 +3,9 @@ import { InputElement } from "./components/InputElement";
 import Button from "./components/Button";
 import FormError from "./components/FormError";
 import FormMessage from "./components/FormMessage";
+import User from "./components/User";
+import Avatar from "./avatar.jpg"
+
 
 // function FormError(props) {
 //   if (!props.visible) {
@@ -31,6 +34,7 @@ function App() {
   return (
   <form className="form">
     <div className="form-field">
+       {isSignedIn && <User src={Avatar} alt="avatarPicture" username="Aang"/>} 
       <InputElement label="Username" type="text" />     
     </div>
     <div className="form-field">
