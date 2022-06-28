@@ -1,5 +1,4 @@
 import "./App.css";
-//ctrl+space da prikaže funkciju koju importamo
 import { InputElement } from "./components/InputElement";
 import Button from "./components/Button";
 import FormError from "./components/FormError";
@@ -20,8 +19,6 @@ import FormMessage from "./components/FormMessage";
 // }
 
 
-
-//pozivam labelu
 function App() {
   const isSignedIn = true;
   // let formMessageComponent = null;
@@ -37,7 +34,6 @@ function App() {
       <InputElement label="Username" type="text" />     
     </div>
     <div className="form-field">
-      
       <InputElement label="Password" type="password" />
     </div>
     <div className="form-field">
@@ -46,11 +42,8 @@ function App() {
       </div>
       <FormError visible={!isSignedIn} />
       <FormMessage visible={isSignedIn} />
-     
   </form>
   );
 }
-
-
 
 export default App;
