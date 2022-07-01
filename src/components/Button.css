@@ -6,3 +6,7 @@
     color: white;
   
   }
+
+  .button + .button {
+    margin-left: 4px;
+  }

@@ -1,12 +1,15 @@
 
-//enkapsulirana labela :D  1 izvor istine! component based pristup izrade
+import "./InputElement.css";
 
-
-export function InputElement({ label, type }) {
+export function InputElement({ label, type, onChange, name, value }) {
     return (
         <label>
             <div className="label">{label}</div>
-            <input className="input" type={type} />
+            <input className="input"
+                type={type}
+                onChange={onChange}
+                name={name}
+                value={value} />
         </label>
-    )
+    );
 }

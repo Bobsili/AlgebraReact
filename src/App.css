@@ -1,14 +1,6 @@
-form {
-  /* border: 1px solid black; */
+.form {
   padding: 16px;
 }
-
-
-
 .form-field + .form-field {
-margin-top: 16px;
+  margin-top: 16px;
 }
-
-
-
-
