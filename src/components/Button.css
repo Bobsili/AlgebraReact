@@ -1,12 +1,10 @@
 .button {
     padding: 0 8px;
     min-height: 32px;
-    border: 1px solid rgb(149, 109, 35);
-    background-color: rgb(205, 138, 15);
+    border: 1px solid var(--color-primary);
+    background-color: var(--color-primary);
     color: white;
-  
   }
-
   .button + .button {
     margin-left: 4px;
   }

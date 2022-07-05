@@ -1,0 +1,15 @@
+.color-element {
+    position: relative;
+}
+
+.color-element input {
+    position: absolute;
+    visibility: hidden;
+}
+
+.show {
+    height: 10px;
+    width: 10px;
+    margin: auto;
+    display: inline-flex;
+}

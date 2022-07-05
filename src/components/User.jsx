@@ -9,4 +9,3 @@ export function User(props) {
         </div>
     );
 }
-
