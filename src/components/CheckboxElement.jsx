@@ -2,12 +2,11 @@ import "./CheckboxElement.css";
 
 export function CheckboxElement(props) {
     return (
-        <label>
+        <label key={props.value} className="checkbox-input">
             <input
                 type="checkbox"
                 name={props.name}
-                onChange={props.onChange}
-                checked={props.checked}
+                value={props.value}
             />
             {props.label}
         </label>
